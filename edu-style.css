@@ -9,12 +9,18 @@ h1
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 45px;
     color: rgb(17, 0, 255);
+    margin-top: 25px;
+}
+h1:hover
+{
+    color: rgb(255, 0, 140);
 }
 p
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: rgb(255, 0, 85);
+    margin-top: 30px;
 }
 .cont
 {
@@ -26,6 +32,7 @@ p
     border: solid 3px white;
     background-color: white;
     width: 900px;
+    height: 270px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -33,12 +40,16 @@ p
 {
     width: 80px;
     height: 35px;
-    border-radius: 30px;
-    color: slateblue;
-    background-color: yellow;
-    border: solid 2px  ;
+    border-radius: 5px;
+    background-color: white;
+    border: solid 2px white ;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 40px;
+}
+#btn:hover
+{
+    background-color: blue;
+    color:yellow;
 }
 .cont2
 {
@@ -46,6 +57,7 @@ p
     border: solid 3px white;
     background-color: white;
     width: 900px;
+    height: 270px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -55,6 +67,118 @@ p
     border: solid 3px white;
     background-color: white;
     width: 900px;
+    height: 270px;
     margin-top: 20px;
     margin-left: 20px;
+}
+.container .box
+{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #ffff;
+    box-shadow: 0 5px 15px rgb(0,0,0,1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    transition: 2s;
+    
+    
+}
+.container .box .icon
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.container .box:nth-child(1) .icon
+{
+    box-shadow: 0 0 0 0 lightblue;
+    background: lightgreen;
+}
+.container .box:nth-child(1):hover .icon
+{
+    box-shadow: 0 0 0 400px lightpink;
+}
+.container .box .content
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.container .box .content h4
+{
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0;
+}
+.container .box .content p
+{
+    margin: 0;
+    padding: 0;
+}
+a{
+    position: relative;
+    width: 5px;
+    padding: 2px;
+    background: #ffff;
+    box-shadow: 0 5px 10px rgb(0,0,0,.1);
+    border-radius: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.butt
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    justify-content: space-between ;
+    
+}
+.butt .tp
+{
+    
+    width: 122px;
+    height: 35px;
+    border-radius: 30px;
+    color: slateblue;
+    background-color: yellow;
+    border: solid 2px  ;
+    font-size: 20px;
+    margin-top: 10px;
+   
+    font-weight: 500;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+.final1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.final2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.final3
+{
+    display: flex;
+    justify-content: space-around;
 }
