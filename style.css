@@ -10,10 +10,16 @@ body {
  .charger
  {
 	 font-size:20px;
-	 margin-left:10px;
 	 color: #61b82a;
 	 font-family: 'Bree Serif', serif;
+background:#0f0c08;
+padding-bottom:5px;
+cursor: pointer;
 
+ }
+ .charger h1
+ { 
+ margin-left:10px;
  }
  .charger span
  {
@@ -31,7 +37,7 @@ body {
 .menu
 {
     text-align: center;
-    position: relative;
+    
 }
 
 .menu ul
@@ -354,7 +360,8 @@ footer{
             margin-right: auto;
             margin-top: 0px;
             text-align: center;
-            overflow: hidden;	
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgb(0,0,0,1);			
         }
        
         .image-holder
